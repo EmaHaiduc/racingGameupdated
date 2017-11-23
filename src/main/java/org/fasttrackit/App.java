@@ -8,7 +8,7 @@ public class App {
         track.setLenght(100);
         race.setTrack(track);
 
-
+//test comm
 
         race.start();
         }
