@@ -24,6 +24,13 @@ public class Vehicle {
         System.out.println(speed);
         return 10.1;
 
+    }
 
+    @Override
+    public String toString() {
+        return "Vehicle{" +
+                "name='" + name + '\'' +
+                ", color='" + color + '\'' +
+                '}';
     }
 }
